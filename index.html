@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Campus Awareness</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- LOGIN SCREEN -->
+<div id="login-screen" class="login-container">
+    <h2>Login to Green Campus</h2>
+    <input type="text" id="username" placeholder="Enter Username" />
+    <input type="password" id="password" placeholder="Enter Password" />
+    <button onclick="login()">Login</button>
+    <p id="login-msg"></p>
+</div>
+
+<!-- MAIN CONTENT -->
+<div id="main-content" class="hidden">
+
+    <!-- HEADER -->
+    <header class="header">
+        <h1>🌿 Green Campus Awareness</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#tips">Tips</a>
+            <a href="#quiz">Quiz</a>
+        </nav>
+    </header>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+        <h2>About Green Campus</h2>
+        <p>A green campus is an environmentally responsible space focused on sustainability.
+        It emphasizes energy saving, waste reduction, and natural resource conservation.</p>
+        <p>Students, teachers, and staff work together for clean air and cleaner grounds.
+        Solar panels, rainwater harvesting, and reduced pollution help protect nature.</p>
+        <p>A green campus improves health and learning through greener surroundings.
+        More trees and gardens support biodiversity and wildlife on campus grounds.</p>
+        <p>Planting local species helps maintain natural soil and climate balance.
+        Reducing greenhouse gas emissions slows climate change.</p>
+        <p>Encouraging reusable water bottles cuts down on plastic waste.
+        Composting food scraps turns waste into garden nutrients.</p>
+        <p>Energy-efficient lighting lowers electricity usage dramatically.
+        Bike paths and walkways reduce vehicle traffic and air pollution.</p>
+        <p>Community awareness events bring attention to sustainable living.
+        Green education ensures long-term environmental thinking.</p>
+        <p>Conserving water and energy saves campus funds.</p>
+        <p>Recycling programs reduce landfill dependency.
+        Green areas promote physical and mental well-being.</p>
+        <p>Each member contributes to a healthier earth.</p>
+    </section>
+
+    <!-- TIPS -->
+    <section id="tips" class="section">
+        <h2>Tips for a Greener Campus</h2>
+        <p>1. Always turn off lights when not in use.</p>
+        <p>2. Use reusable bags instead of plastic ones.</p>
+        <p>3. Carry a reusable water bottle every day.</p>
+        <p>4. Join tree planting drives on campus.</p>
+        <p>5. Report leaks in taps immediately.</p>
+        <p>6. Use public transport or bike to class.</p>
+        <p>7. Avoid single-use cutlery at events.</p>
+        <p>8. Start or join a recycling club.</p>
+        <p>9. Participate in campus clean-up days.</p>
+        <p>10. Support energy-efficient appliances.</p>
+        <p>11. Walk with friends instead of driving cars.</p>
+        <p>12. Carry your lunch in reusable containers.</p>
+        <p>13. Donate old books and clothes wisely.</p>
+        <p>14. Conserve water when brushing and washing.</p>
+        <p>15. Invite speakers on environment topics.</p>
+        <p>16. Share eco tips with classmates.</p>
+        <p>17. Plant flowers and watch them bloom.</p>
+        <p>18. Respect nature and motivate others.</p>
+        <p>19. Practice minimal paper use in notes.</p>
+    </section>
+
+    <!-- QUIZ -->
+    <section id="quiz" class="section">
+        <h2>Green Campus Quiz</h2>
+        <div id="quiz-container"></div>
+        <button onclick="nextQuestion()" id="next-btn" class="hidden">Next</button>
+        <p id="quiz-result"></p>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>🌱 Be the change you want to see in the world!</p>
+    </footer>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
